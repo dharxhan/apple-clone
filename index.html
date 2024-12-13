@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Apple</title>
+</head>
+<style>
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.scrolling-slider {
+            margin: 50px auto;
+            overflow: hidden;
+            position: relative;
+            width: 960px;
+            background: white;
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+            height: 100px;
+        }
+
+        .scrolling-slider::before, .scrolling-slider::after {
+            content: "";
+            height: 100px;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
+            background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .scrolling-slider::before {
+            left: 0;
+        }
+
+        .scrolling-slider::after {
+            right: 0;
+            transform: rotateZ(180deg);
+        }
+
+        .scrolling-slider .slide-track {
+            animation: scroll 40s linear infinite;
+            display: flex;
+            width: calc(250px * 14);
+        }
+
+        .scrolling-slider .slide {
+            height: 100px;
+            width: 250px;
+        }
+
+        .scrolling-slider .slide img {
+            height: 100px;
+            width: 250px;
+            display: block;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-250px * 7)); }
+        }
+</style>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Store</a></li>
+            <li><a href="">Mac</a></li>
+            <li><a href="">iPad</a></li>
+            <li><a href="">iPhone</a></li>
+            <li><a href="">Watch</a></li>
+            <li><a href="">AirPods</a></li>
+            <li><a href="">TV & Home</a></li>
+            <li><a href="">Entertainment</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Support</a></li>
+        </ul>
+    </nav>
+    
+    <span class="mad">
+        <p>Get up to ₹10000.00 instant cashback with eligible cards.* Plus up to 12 months of No Cost EMI.‡ <a href="">Shop</a></p>
+    </span>
+
+    <h1>MacBook Pro</h1>
+    <h4>A work of smart.</h4>
+    
+    <span class="highlight">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div >
+        <img src="https://www.apple.com/v/home/bv/images/heroes/macbook-pro-enhanced/hero_macbookpro_announce__f7vm5bnswsae_largetall.jpg" alt="MAC" class="mac">
+    </div>
+
+    <div class="rainb">
+        <p id="rainb1">Built for Apple Intelligence.</p>
+    </div>
+
+    <div class="rainb">
+        <p id="rainb2">Available now in US English</p>
+    </div>
+
+    <div class="macmin">
+        <h1 id="macmin1">Mac mini</h1>
+        <h4 id="macmin2">Size down Power up.</h4>
+    </div>
+
+    <span class="highlight1">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div >
+        <img src="macmini.png" alt="MAC" class="min1">
+    </div>
+
+    <div class="rainb1">
+        <p id="rainb1">Built for Apple Intelligence.</p>
+    </div>
+
+    <div class="rainb1">
+        <p id="rainb2">Available now in US English</p>
+    </div>
+
+    <div class="imac">
+        <h1 id="macmin1">iMac</h1>
+    </div>
+
+    <div class="brilliant">
+        <h4 ><span style="color: black;">B</span>
+            <span style="color: black;">r</span>
+            <span style="color: black;">i</span>
+            <span style="color: green;">l</span>
+            <span style="color: yellow;">l</span>
+            <span style="color: orange;">l</span>
+            <span style="color: palevioletred;">l</span>
+            <span style="color: blueviolet;">l</span>
+            <span style="color: rgb(0, 119, 255);">l</span>
+            <span style="color: black;">i</span>
+            <span style="color: black;">a</span>
+            <span style="color: black;">n</span>
+            <span style="color: black;">t.</span>
+        </h4>
+    </div>
+
+    <span class="highlight1">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div >
+        <img src="imac.png" alt="MAC" class="min1">
+    </div>
+
+    <div class="rainb1">
+        <p id="rainb1">Built for Apple Intelligence.</p>
+    </div>
+
+    <div class="rainb1">
+        <p id="rainb2">Available now in US English</p>
+    </div>
+
+    
+    <div class="z1">
+        <p>
+            <span class="z10">iPhone 16 Pro</span>
+            <span class="z11">Hello, Apple Intelligence.</span>
+            
+            <img src="https://www.apple.com/v/home/bv/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall.jpg" alt="MAC"  width="49%" id="ip16pro">
+        </p>
+    </div>
+
+    <span class="highlight1a">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div class="z2">
+        <p>
+            <span class="z20">iPhone 16</span>
+            <span class="z21">Hello, Apple Intelligence.</span>
+            
+            <img src="https://www.apple.com/v/home/bv/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_mediumtall.jpg" alt="MAC"  width="49%" id="ip16">
+        </p>
+    </div>
+
+    <span class="highlight1b">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div class="z3">
+        <p>
+            <span class="z30">AirPods Pro 2</span>
+            <span class="z31">
+                Hearing Test, Hearing Aid, and Hearing Protection
+                <br>
+                <span class="z31-inner">features in a free software update.</span>
+            </span>
+            
+            <img src="https://www.apple.com/v/home/bv/images/promos/airpods-pro-2/promo_airpods_pro_2_avail__vkitqi3okwie_medium.jpg" 
+                 alt="MAC" 
+                 height="600px"
+                 width="49%" 
+                 id="ap2">
+        </p>
+        
+    </div>
+
+    <span class="highlight1c">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    <div class="z4">
+        <p>
+            <span class="z40">iPhone 16</span>
+            <span class="z41">Thinstant classic.</span>
+            <img src="https://www.apple.com/v/home/bv/images/logos/apple-watch-series-10/promo_logo_apple_watch_series_10__qk5vaa89vnm2_large.png" alt="wat" id="iwlogo">
+            <img src="https://www.apple.com/v/home/bv/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg" alt="MAC" 
+                height="600px"
+            width="49%" id="iw">
+        </p>
+    </div>
+
+    <span class="highlight1d">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Buy</div>
+    </span>
+
+    
+    <div class="z5">
+        <p>
+            <span class="z51">
+                Get $180-$650 in credit when
+                <br>
+                <span class="z51-inner"> you trade in iPhone 12 or higher.</span>
+            </span>
+            <img src="https://www.apple.com/v/home/bv/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large.png" alt="tdi" id="tdlogo">
+            <img src="https://www.apple.com/v/home/bv/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg" 
+                 alt="MAC" 
+                 height="600px"
+                 width="49%" 
+                 id="td">
+        </p>
+        
+    </div>
+
+    <span class="highlight1e">
+        <div class="bn60">Get your estimate</div>
+    </span>
+
+    <div class="z6">
+        <p>
+            <span class="z60">iPhone 16</span>
+            <span class="z61">
+                Get upto 3% Daily Cash back
+                <br>
+                <span class="z61-inner">with every purchase.</span>
+            </span>
+            <img src="https://www.apple.com/v/home/bv/images/logos/apple-card/logo__dcojfwkzna2q_large.png" alt="wat" id="iclogo">
+            <img src="https://www.apple.com/v/home/bv/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg" alt="MAC" 
+                height="600px"
+            width="49%" id="ic">
+        </p>
+    </div>
+
+    <span class="highlight1f">
+        <div class="bn60">Learn more</div>
+        <div class="bn70">Apply now</div>
+    </span>
+    
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="img1"><img src="https://is1-ssl.mzstatic.com/image/thumb/C34jADlGtR5wObjPAMbW4w/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img2"><img src="https://is1-ssl.mzstatic.com/image/thumb/BtE1Nd7nlabOZ4pkGzee3g/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img3"><img src="https://is1-ssl.mzstatic.com/image/thumb/LEDx4gCVQd_lTJt81zQq8w/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img4"><img src="https://is1-ssl.mzstatic.com/image/thumb/rQ9tx4HlD7su-j1sVFPebg/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img5"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/cf/f8/d5/cff8d531-c00e-015f-cbbc-e4f33224acd7/3c395e91-fb16-4b5d-8f3f-14764a4ba325.png/689x387.jpg&" alt=""></a></div>
+          <div class="swiper-slide"><a href="img6"><img src="https://is1-ssl.mzstatic.com/image/thumb/S2T1FMcov5a0GzmninlU4Q/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img7"><img src="https://is1-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img8"><img src="https://is1-ssl.mzstatic.com/image/thumb/2eBqvT3JXPbdzHWj6HM5_w/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img9"><img src="https://is1-ssl.mzstatic.com/image/thumb/SoSj0p-zLdA-F4ZZWM7NBw/689x387.jpg" alt=""></a></div>
+          <div class="swiper-slide"><a href="img9"><img src="https://is1-ssl.mzstatic.com/image/thumb/Ed-B4V6OY0yoxxlksKeulw/689x387.jpg" alt=""></a></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <div class="scrolling-slider">
+        <div class="slide-track">
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/3c/de/7c/3cde7c56-91c7-a2df-dc18-53cad5089057/8ce8d007-fff0-4d26-9493-b866be896b00.png/196x196SC.DN01.jpg?l=en-US" alt="Product 1"></div>
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/bd/60/67/bd6067ae-64ac-04df-dc96-4757069c37dd/6610be22-3caa-493c-90b0-a8f73520c9bf.png/417x236.jpg" alt="Product 2"></div>
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/dd/81/62/dd816249-8de4-4131-c9b5-71f61017627c/98ca95ea-b161-4f00-a3b7-0d7098b1b432.png/417x236.jpg" alt="Product 3"></div>
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/00/97/3f/00973fd2-c7aa-7da4-c4e3-b0c23c7e4f3c/4d8e83d5-9397-484c-b5e6-92ceabc19dd5.png/196x196SC.DN01.jpg?l=en-US" alt="Product 4"></div>
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/417x236.jpg" alt="Product 5"></div>
+            <div class="slide"><img src="https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/74/62/b8/7462b84a-0947-1542-2718-07a0970e995e/media-ST_JCL_0082-9473683-Artwork-iOS-314070.png/417x236.jpg" alt="Product 6"></div>
+        </div>
+    </div>
+    
+    <footer class="foot">
+        <ul>
+            <li>
+                1. Hearing Aid and Hearing Test: The Hearing Aid feature has received FDA authorization. The Hearing Test and Hearing Aid features are supported on AirPods Pro 2 with the latest firmware paired with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is intended for people with perceived mild to moderate hearing loss.
+            </li>
+            <br>
+            <li>Hearing Protection: The Hearing Protection feature works with AirPods Pro 2 with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later. Feature is only available in the U.S. and Canada. See support.apple.com/120850 for total attenuation and more information. The Hearing Protection feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds louder than 110 dBA.</li>
+            <br>
+            <li>2. Trade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade-in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.</li>
+            <br>
+            <li>To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</li>
+            <br>
+            <li>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.</li>
+            <br>
+            <li>Learn more about how Apple Card applications are evaluated at <a href="support.apple.com/kb/HT209218">support.apple.com/kb/HT209218</a>.</li>
+            <br>
+            <li>Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to U.S. English, as part of an iOS 18, iPadOS 18, and macOS Sequoia update. English (Australia, Canada, Ireland, New Zealand, South Africa, UK) language support available this December. Some features, additional platforms, and support for additional languages, like Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese, Spanish, Vietnamese, and others, will be coming over the course of the next year.</li>
+            <br>
+            <li>A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.</li>
+            <br>
+            <li>Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.</li>
+
+        </ul>
+    
+        <nav class="navbar2">
+        <ul id="li1">
+                <span class="topc">Shop and learn</span>
+                <li>Store</a></li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>Entertainment</li>
+                <li>Accessories</li>
+                <li>Support</li>
+        </ul>
+        
+    </nav>
+
+    <nav class="navbar2">
+        <ul id="li1">
+                <span class="topc">Apple Wallet</span>
+                <li>Wallet</li>
+                <li>Apple Card</li>
+                <li>Apple pay</li>
+                <li>Apple Cash</li>
+        </ul>
+        
+    </nav>
+
+    <nav class="navbar3">
+        <ul id="li1">
+                <span class="topc">Account</span>
+                <li>Manage your apple account</a></li>
+                <li>Apple Store Account</li>
+                <li>iCloud.com</li>
+        </ul>
+    </nav>
+
+    <nav class="navbar4">
+        <ul id="li1">
+                <span class="topc">Entertainment</span>
+                <li>Apple One</a></li>
+                <li>Apple TV+</li>
+                <li>Apple Music</li>
+                <li>Apple Arcade</li>
+                <li>Apple Fitness+</li>
+                <li>Apple News+</li>
+                <li>Apple Podcasts</li>
+                <li>Apple Books</li>
+                <li>Apple Store</li>
+        </ul>
+    </nav>
+
+    
+    <nav class="navbar5">
+        <ul id="li1">
+                <span class="topc">Apple Store</span>
+                <li>Find a Store</a></li>
+                <li>Genius Bar</li>
+                <li>Today at Apple</li>
+                <li>Group Reservations</li>
+                <li>Apple Camp</li>
+                <li>Apple Store App</li>
+                <li>Certified Refurbished</li>
+                <li>Apple Trade in</li>
+                <li>Financing</li>
+                <li>Carrier Deals at Apple</li>
+                <li>Order Status</li>
+                <li>Shopping help</li>
+        </ul>
+    </nav>
+
+    <nav class="navbar6">
+        <ul id="li1">
+                <span class="topc">For Bussiness</span>
+                <li>Apple and Business</a></li>
+                <li>Shop for business</li>
+        </ul>
+    </nav>
+
+    
+    <nav class="navbar6">
+        <ul id="li1">
+                <span class="topc">For Education</span>
+                <li>Apple and Education</a></li>
+                <li>Shop for K-12</li>
+                <li>Shop for college</li>
+        </ul>
+    </nav>
+
+    
+    <nav class="navbar7">
+        <ul id="li1">
+                <span class="topc">For Healthccare</span>
+                <li>Apple in Healthcare</li>
+                <li>MAC in healthcare</li>
+                <li>Health on Apple Watch</li>
+                <li>Health records on iPhone and iPad</li>
+        </ul>
+    </nav>
+    </footer>
+</body>
+</html>
