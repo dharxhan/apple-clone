@@ -805,6 +805,7 @@ h4{
     overflow: hidden;
 }
 
+
 .foot{
     text-decoration: none;
     padding: 105px;
@@ -813,6 +814,7 @@ h4{
     position: relative;
     bottom: 100px;
     color: grey;
+    height: 100vh;
 }
 
 
